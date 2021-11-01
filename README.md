@@ -7,7 +7,7 @@ This test is split into 5 sections, **data pipelines**, **databases**, **system 
 Section 1 of the test was conducted using python and cron. The preprocessing job would be run everyday at 1am with the cron job using the following preprocessing steps found below. 
 
 ### Preprocessing
-The following preprocessing task could be found in the `section1.py` script containing the following preprocessing steps:
+The following preprocessing task could be found in the `Section1/section1.py` script containing the following preprocessing steps:
 
 - Split the name field into first_name, and last_name
 - Remove any zeros prepended to the price field
@@ -66,13 +66,9 @@ The company has a web application which collects images uploaded by customers. T
 Produce a system architecture diagram (e.g. Visio, Powerpoint) using any of the commercial cloud providers' ecosystem to explain your design. Please also indicate clearly if you have made any assumptions at any point.
 
 ## Section 4: Charts and APIs
-Your team decided to design a dashboard to display the statistic of COVID19 cases. You are tasked to display one of the components of the dashboard which is to display a visualisation representation of number of COVID19 cases in Singapore over time. 
+This section shows the visualisation of the **total number of cases in Singapore over a time period**. The data was retrieved from https://covid19api.com/ and displayed as an interactive chart using the python plotly library. This can be viewed the in `Section4/section 4.ipynb` or PDF which consist of the non interactive chart. 
 
-Your team decided to use the public data from https://documenter.getpostman.com/view/10808728/SzS8rjbc#b07f97ba-24f4-4ebe-ad71-97fa35f3b683.
 
-Display a graph to show the number cases in Singapore over time using the APIs from https://covid19api.com/.
-
-*Note: please submit screenshots of the dashboard and also export your notebook as pdf (if you are using python).*
 
 ## Section 5: Machine Learning
 Using the dataset from https://archive.ics.uci.edu/ml/datasets/Car+Evaluation, create a machine learning model to predict the buying price given the following parameters:
