@@ -25,7 +25,7 @@ The following steps was utilized to setup the cron script to run the preprocessi
     - `crontab -e` which will open a vim editor. From the editor, click on `i` from your keyboard to edit the file.
     - Include the following line into the vim editor
     `0 1 * * * <python3 path> <preprocessing path>` an example of the full pattern is found below
-    `0 1 * * * /usr/local/bin/python3 /Users/zentan/Documents/GitHub/Govtech/section1.py`
+    `0 1 * * * /usr/local/bin/python3 /Users/zentan/Documents/GitHub/Govtech/Section1/section1.py`
     - once done, press the `esc` key to exit the insert mode and save the file by using the following keys `:wq`
     - To verify that the file was saved successfully, use `crontab -l` to see your scheduled job
     - you should see the file you just created
