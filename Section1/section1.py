@@ -17,9 +17,9 @@ def above_100(price):
         return True
     return False
 
-# This function removes prepended zero
+# This function removes prepended zero and round to 2 d.p. for price
 def remove_prepended_zero(price):
-    price = float(price)
+    price = round(float(price),2)
     return str(price)
 
 # Importing all the Data
