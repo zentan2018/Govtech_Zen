@@ -33,7 +33,7 @@ for i in range(len(all_files)):
     all_df[file_name] = pd.read_csv(file, encoding = 'unicode_escape')
 
 # preprocessing for all the dataset
-for df in list(df_names):
+for df in list(all_df):
     #dropping all rows of df which do not have a name
     all_df[df].dropna(subset=['name'], inplace=True)
     
@@ -50,5 +50,5 @@ for df in list(df_names):
     all_df[df]['price'] = all_df[df]['price'].apply(remove_prepended_zero)
     
 # Saving the preprocessed dataset
-for df in df_names:
-    all_df[df].to_csv("Data/" + df + "_preprocessed.csv", index=False)
+for df in list(all_df):
+    all_df[df].to_csv("Data_preprocessed/" + df + "_preprocessed.csv", index=False)
