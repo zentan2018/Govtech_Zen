@@ -20,7 +20,7 @@ The deliverables of this section are saved in PDF with a brief explaination of t
 
 ## Section 4: Charts and APIs
 
-This section shows the visualisation of the **total number of cases in Singapore over a time period** in an interactive chart. The data was retrieved from https://covid19api.com/ and displayed using the python plotly library. This can be viewed the in `Section4/section 4.ipynb` or PDF which consist of the non interactive chart. There will be no readme in this section.
+This section shows the visualisation of the **total number of cases in Singapore over a time period** in an interactive chart. The data was retrieved from https://covid19api.com/ and displayed using the python plotly library. This can be viewed the in `Section4/section4.ipynb` or PDF which consist of the non interactive chart. There will be no readme in this section.
 
 
 ## Section 5: Machine Learning
