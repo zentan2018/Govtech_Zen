@@ -10,22 +10,23 @@ Section 1 of the test was conducted using python and cron. The preprocessing job
 
 ## Section 2: Databases
 
-Section 2 of the test was conducted using docker and postgres. The set up could be run following the instructions of the **README** file under section 2. Solutions of the SQL Query using sample data could also be found there.
+Section 2 of the test was conducted using docker and postgres. The set up could be run following instructions of the **README** file under section 2. Solutions of the SQL Query using sample data could also be found there.
 
 
 ## Section 3: System Design
 
-The deliverable of this section are saved in PDF with a brief explaination of the services used in the solution diagram.
+The deliverables of this section are saved in PDF with a brief explaination of the services used in the solution diagram.
 
 
 ## Section 4: Charts and APIs
 
-This section shows the visualisation of the **total number of cases in Singapore over a time period**. The data was retrieved from https://covid19api.com/ and displayed as an interactive chart using the python plotly library. This can be viewed the in `Section4/section 4.ipynb` or PDF which consist of the non interactive chart. There will be no readme in this section.
+This section shows the visualisation of the **total number of cases in Singapore over a time period** in an interactive chart. The data was retrieved from https://covid19api.com/ and displayed using the python plotly library. This can be viewed the in `Section4/section 4.ipynb` or PDF which consist of the non interactive chart. There will be no readme in this section.
 
 
 ## Section 5: Machine Learning
 
 This section shows a machine learning pipeline using dataset obtained from https://archive.ics.uci.edu/ml/datasets/Car+Evaluation. A machine learning model was created to predict the buying price given the following parameters:
+
 - Maintenance = High
 - Number of doors = 4
 - Lug Boot Size = Big
