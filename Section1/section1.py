@@ -2,17 +2,22 @@ import pandas as pd
 import glob
 
 #Helper functions for preprocessing
+
+#This function takes in the whole name and returns the first name
 def first_name(name):
     return name.split()[0]
 
+#This function takes in the whole name and returns the last name
 def last_name(name):
     return name.split()[1]
 
+# This function takes in the price and returns true if > 100 and false if < 100
 def above_100(price):
     if float(price) > 100:
         return True
     return False
 
+# This function removes prepended zero
 def remove_prepended_zero(price):
     price = float(price)
     return str(price)
@@ -46,4 +51,4 @@ for df in list(df_names):
     
 # Saving the preprocessed dataset
 for df in df_names:
-    all_df[df].to_csv("Data/Data1" + df + "_preprocessed.csv", index=False)
+    all_df[df].to_csv("Data/" + df + "_preprocessed.csv", index=False)
